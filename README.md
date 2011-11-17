@@ -30,7 +30,7 @@ You will see the following appear in your browser replacing the current div:
 
 The script adds an HTML5 custom data attribute 'data-cloud' and a class of 'cloudy' to each newly wrapped word passed inside the array of the 'default' object.
 
-Cloudy.js also sets up mouseover and mouseout handlers to elements with the class 'cloud-link'. These links should have an id attribute matchin the objects name passed into 'clouds'.
+Cloudy.js also sets up mouseover and mouseout bindings to elements with the class 'cloud-link'. These links should have an id attribute matchin the objects name passed into 'clouds'.
 
 	<span class="cloud-link" id="plugin">Show words for plugin</span>
 
