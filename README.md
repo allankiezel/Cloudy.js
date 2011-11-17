@@ -1,6 +1,6 @@
 # Cloudy.js, a jQuery plugin for turning text into an interactive word cloud
 
-## Turning a <div> full of words into a cloud
+## Turning a container full of words into a cloud
 You'll start off with a div element filled with words:
 
 	<div class="cloud">This is the cloudy plugin</div>
