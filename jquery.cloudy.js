@@ -56,7 +56,7 @@
         
         for ( var i = 0, len = methods.defaults.clouds[cloud].length-1; i <= len; i++ ) {
         
-          $('span[data-cloud="'+methods.defaults.clouds[cloud][i]+'"]').addClass('cloudize');
+          $('span[data-cloud="'+methods.defaults.clouds[cloud][i]+'"]').addClass('cloudy');
           
         }
         
@@ -65,7 +65,7 @@
     clearClouds: 
       function() {
         
-        $('span', methods.obj).removeClass('cloudize');
+        $('span', methods.obj).removeClass('cloudy');
         
       },
       
