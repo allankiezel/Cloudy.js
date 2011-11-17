@@ -9,10 +9,11 @@ Include jQuery 1.5+ and call the cloudy method passing in a 'clouds' object argu
 	
 	<script>
 	  $(document).ready(function() {
-	    $(".cloud").cloudy({clouds: {
-			default: ['this', 'is', 'cloudy'],
-			plugin: ['the', 'plugin']
-		}
+	    $(".cloud").cloudy({
+			clouds: {
+				default: ['this', 'is', 'cloudy'],
+				plugin: ['the', 'plugin']
+			}
 		});
 	  });
 	</script>
@@ -27,3 +28,4 @@ You will see the following appear in your browser replacing the current div:
 	  <span class="word5" data-cloud="plugin">plugin</span>
 	</div>
 
+The script adds an HTML5 custom data attribute 'data-cloud' to each newly wrapped word and a class of 'cloudy' to the words passed inside the array of the 'default' object.
