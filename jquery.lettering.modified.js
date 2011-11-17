@@ -39,7 +39,7 @@
                 injector($(this).children("br").replaceWith(r).end(), r, 'line', '')
             })
         },
-		names: function() {
+		clouds: function() {
             return this.each(function() {
                 injectorCloud($(this), ' ', 'word', ' ')
             })

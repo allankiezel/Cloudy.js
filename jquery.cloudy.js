@@ -33,7 +33,7 @@
 
                     methods.obj = $this;
 
-                    $this.lettering('names');
+                    $this.lettering('clouds');
 
                     //console.log(methods.defaults);
 
